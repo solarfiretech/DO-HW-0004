@@ -1,0 +1,8 @@
+gaf export --paper=iso_a4 -o do-hw-0004-1.pdf do-hw-0004-1.sch
+gaf export --paper=iso_a4 -o do-hw-0004-2.pdf do-hw-0004-2.sch
+
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=do-hw-0004.pdf do-hw-0004-1.pdf do-hw-0004-2.pdf
+
+rm do-hw-0004-1.pdf
+rm do-hw-0004-2.pdf
+
