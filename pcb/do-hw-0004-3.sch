@@ -246,3 +246,22 @@ T 45700 41300 9 12 1 0 0 0 1
 Zero Crossing Detector
 T 42500 50500 9 12 1 0 0 0 1
 Antenna Filter and SMA Connection
+T 45300 48500 9 12 1 0 0 0 2
+Controlled Impeadance
+Transmission Line
+T 53300 41300 9 12 1 0 0 0 1
+Digital Oil, LLC
+T 55100 41300 9 12 1 0 0 0 1
+Pine River, MN 
+T 49800 40900 9 12 1 0 0 0 1
+Antenna Matching and Zero Crossing Detector
+T 49800 40600 9 12 1 0 0 0 1
+do-hw-0004-1.sch
+T 50800 40300 9 12 1 0 0 0 1
+3
+T 51300 40300 9 12 1 0 0 0 1
+5
+T 53700 40600 9 12 1 0 0 0 1
+0.1
+T 53800 40300 9 12 1 0 0 0 1
+tgack

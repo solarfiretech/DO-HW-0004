@@ -78,8 +78,8 @@ refdes=J3
 }
 T 47500 48900 9 12 1 0 0 6 5
 From capacitor sense board.
-Sensing area width: 18.0 mm
 Sensing area length: 60.0 mm
+Sensing area width: 18.0 mm
 Spactially Interpolated, Mutual
 Capacitive sense board.
 T 45500 46800 9 12 1 0 0 0 2
@@ -143,3 +143,19 @@ IO_1: Analog In || Digital In || Digital Out
 IO_2: Analog In || Digital In || Digital Out
 IO_3: Analog In || Digital In || Digital Out
 IO_4: Analog In || Digital In || Digital Out
+T 53300 41300 9 12 1 0 0 0 1
+Digital Oil, LLC
+T 55100 41300 9 12 1 0 0 0 1
+Pine River, MN 
+T 49800 40900 9 12 1 0 0 0 1
+Offboard Connections
+T 49800 40600 9 12 1 0 0 0 1
+do-hw-0004-1.sch
+T 50800 40300 9 12 1 0 0 0 1
+5
+T 51300 40300 9 12 1 0 0 0 1
+5
+T 53700 40600 9 12 1 0 0 0 1
+0.1
+T 53800 40300 9 12 1 0 0 0 1
+tgack
