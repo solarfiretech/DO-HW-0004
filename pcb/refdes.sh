@@ -1,9 +1,9 @@
 #!/bin/sh
 # 
 # Copyright (c) 2015
-# Solarfire Technologies, LLC
+# Digital-Oil, LLC
 #
-# Contact: tim.gack@solarfiretech.com
+# Contact: timg@digital-oil.com
 #
 # Licensed under CERN OHL v.1.2 or later
 #
@@ -13,7 +13,8 @@
 # MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR 
 # PURPOSE. Please see the CERN OHL v.1.2 or later for applicable conditions.
 #
+#
 
 # Renumbers all reference designators that have not 
 # already been assinged
-refdes_renum --gentle --verbose do-hw-0004-1.sch do-hw-0004-2.sch do-hw-0004-3.sch do-hw-0004-4.sch
+refdes_renum --gentle --verbose do-hw-0004-1.sch do-hw-0004-2.sch do-hw-0004-3.sch do-hw-0004-4.sch do-hw-0004-5.sch

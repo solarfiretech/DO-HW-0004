@@ -13,4 +13,4 @@
 # MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR 
 # PURPOSE. Please see the CERN OHL v.1.2 or later for applicable conditions.
 #
-gnetlist -g bom -o bom.txt do-hw-0004-1.sch do-hw-0004-2.sch do-hw-0004-3.sch do-hw-0004-4.sch 
+gnetlist -g bom -o bom.txt do-hw-0004-1.sch do-hw-0004-2.sch do-hw-0004-3.sch do-hw-0004-4.sch do-hw-0004-5.sch
