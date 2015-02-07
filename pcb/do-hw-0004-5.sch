@@ -1,0 +1,161 @@
+v 20140308 2
+C 40000 40000 0 0 0 title-bordered-B.sym
+C 48900 49300 1 0 0 output-2.sym
+{
+T 49800 49500 5 10 0 0 0 0 1
+net=PTC_X5:1
+T 49100 50000 5 10 0 0 0 0 1
+device=none
+T 49800 49400 5 10 1 1 0 1 1
+value=PTC_X5
+}
+C 48900 48900 1 0 0 output-2.sym
+{
+T 49800 49100 5 10 0 0 0 0 1
+net=PTC_X6:1
+T 49100 49600 5 10 0 0 0 0 1
+device=none
+T 49800 49000 5 10 1 1 0 1 1
+value=PTC_X6
+}
+C 48900 49700 1 0 0 output-2.sym
+{
+T 49800 49900 5 10 0 0 0 0 1
+net=PTC_X4:1
+T 49100 50400 5 10 0 0 0 0 1
+device=none
+T 49800 49800 5 10 1 1 0 1 1
+value=PTC_X4
+}
+N 48900 49400 48400 49400 4
+N 48400 49800 48900 49800 4
+N 48400 49000 48900 49000 4
+C 48400 45900 1 0 1 connector3-2.sym
+{
+T 48100 47550 5 10 0 0 0 6 1
+device=CONNECTOR_3
+T 48100 47750 5 10 0 0 0 6 1
+footprint=SIP3N
+T 47700 47600 5 10 1 1 0 0 1
+refdes=J4
+}
+C 48800 45800 1 0 0 gnd-1.sym
+N 48400 46300 48900 46300 4
+N 48900 46300 48900 46100 4
+C 48700 47900 1 0 0 5V-plus-1.sym
+N 48400 47100 48900 47100 4
+N 48900 47100 48900 47900 4
+C 49900 46900 1 90 0 resistor-1.sym
+{
+T 49500 47200 5 10 0 0 90 0 1
+device=RESISTOR
+T 50000 47400 5 10 1 1 0 0 1
+refdes=R13
+T 50000 47100 5 10 1 1 0 0 1
+value=4.7K
+}
+N 49800 46900 49800 46700 4
+C 49600 47900 1 0 0 vdd-1.sym
+N 49800 47800 49800 47900 4
+N 48400 46700 50600 46700 4
+C 50600 46600 1 0 0 output-2.sym
+{
+T 51500 46800 5 10 0 0 0 0 1
+net=PIR:1
+T 50800 47300 5 10 0 0 0 0 1
+device=none
+T 51500 46700 5 10 1 1 0 1 1
+value=PIR
+}
+C 48400 48600 1 0 1 connector3-2.sym
+{
+T 48100 50250 5 10 0 0 0 6 1
+device=CONNECTOR_3
+T 48100 50450 5 10 0 0 0 6 1
+footprint=SIP3N
+T 47700 50300 5 10 1 1 0 0 1
+refdes=J3
+}
+T 47500 48900 9 12 1 0 0 6 5
+From capacitor sense board.
+Sensing area length: 60.0 mm
+Sensing area width: 18.0 mm
+Spactially Interpolated, Mutual
+Capacitive sense board.
+T 45500 46800 9 12 1 0 0 0 2
+PIR Motion 
+Detect Input
+C 48400 42400 1 0 1 connector5-2.sym
+{
+T 47700 44900 5 10 1 1 0 0 1
+refdes=J6
+T 48100 44850 5 10 0 0 0 6 1
+device=CONNECTOR_5
+T 48100 45050 5 10 0 0 0 6 1
+footprint=SIP5N
+}
+C 48900 43900 1 0 0 output-2.sym
+{
+T 49800 44100 5 10 0 0 0 0 1
+net=IO_2:1
+T 49100 44600 5 10 0 0 0 0 1
+device=none
+T 49800 44000 5 10 1 1 0 1 1
+value=IO_2
+}
+C 48900 43500 1 0 0 output-2.sym
+{
+T 49800 43700 5 10 0 0 0 0 1
+net=IO_3:1
+T 49100 44200 5 10 0 0 0 0 1
+device=none
+T 49800 43600 5 10 1 1 0 1 1
+value=IO_3
+}
+C 48900 44300 1 0 0 output-2.sym
+{
+T 49800 44500 5 10 0 0 0 0 1
+net=IO_1:1
+T 49100 45000 5 10 0 0 0 0 1
+device=none
+T 49800 44400 5 10 1 1 0 1 1
+value=IO_1
+}
+N 48900 44000 48400 44000 4
+N 48400 44400 48900 44400 4
+N 48400 43600 48900 43600 4
+C 48900 43100 1 0 0 output-2.sym
+{
+T 49800 43300 5 10 0 0 0 0 1
+net=IO_4:1
+T 49100 43800 5 10 0 0 0 0 1
+device=none
+T 49800 43200 5 10 1 1 0 1 1
+value=IO_4
+}
+N 48400 43200 48900 43200 4
+C 48900 42300 1 0 0 gnd-1.sym
+N 48400 42800 49000 42800 4
+N 49000 42800 49000 42600 4
+T 47500 43300 9 12 1 0 0 6 5
+General purpose input.
+IO_1: Analog In || Digital In || Digital Out
+IO_2: Analog In || Digital In || Digital Out
+IO_3: Analog In || Digital In || Digital Out
+IO_4: Analog In || Digital In || Digital Out
+T 53300 41300 9 12 1 0 0 0 1
+Digital Oil, LLC
+T 55100 41300 9 12 1 0 0 0 1
+Pine River, MN 
+T 49800 40900 9 12 1 0 0 0 1
+Offboard Connections
+T 49800 40600 9 12 1 0 0 0 1
+do-hw-0004-1.sch
+T 50800 40300 9 12 1 0 0 0 1
+5
+T 51300 40300 9 12 1 0 0 0 1
+5
+T 53700 40600 9 12 1 0 0 0 1
+0.1
+T 53800 40300 9 12 1 0 0 0 1
+tgack
